@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    tools:context="example.com.abhishek.About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT SYSTEM"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:id="@+id/abcd"
+        android:layout_marginTop="25dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_below="@+id/abcd"
+        android:layout_marginTop="20dp"
+        android:text="Water is a powerful indicator of sustainability. It also is an indicator of the level of social development in a particular community. It is an indicator of poverty and social tensions. Water is also an issue that is linked with health, nutrition and many other factors that affect our society including the condition of nature itself! It is not an exaggeration to say that water is life. \n\nWater is one of the very important aspect with respect to human life. The area which we are focusing is management of water for agricultural and general use. During our analysis, we observed 94% of the application methods of irrigation water at field level is of the category surface irrigation whereby the water is spread over the field by gravity. Farming is the backbone of the economy of our country. Every person requires food for their survival."/>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_water_plant"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.abhishek.WaterPlant">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4CAF50">
+
+        <ListView
+            android:id="@+id/textview" android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <uk.co.barbuzz.beerprogressview.BeerProgressView
+        android:id="@+id/beerProgressView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:beerColor="#42A5F5"
+        app:bubbleColor="#0D47A1"
+        app:beerProgress="0"
+        app:waveMax="100"
+        app:waveAmplitude="3dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Request sent for \nWatering Plants"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:id="@+id/water"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="example.com.abhishek.MainActivity">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/waterplant"
+        android:text="Water Plants now"
+        android:background="@drawable/buttonxml"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/analysis"
+            android:text="weather Analysis"
+            android:background="@drawable/buttonxml"
+            android:textColor="#0D47A1"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/support"
+        android:text="Support"
+        android:background="@drawable/buttonxml"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_below="@+id/analysis"
+        android:layout_gravity="right"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/admin"
+        android:text="Admin"
+        android:layout_below="@+id/waterplant"
+        android:background="@drawable/buttonxml"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="60dp" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/barchart"
+        android:text="Daily weather"
+        android:layout_below="@+id/admin"
+        android:background="@drawable/buttonxml"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/piechartactivity"
+        android:text="Monthly weather"
+        android:background="@drawable/buttonxml"
+        android:textColor="#0D47A1"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_below="@+id/support"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="60dp" />
+
+
+</RelativeLayout>

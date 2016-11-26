@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_useage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    tools:context="example.com.abhishek.Useage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Useage Of System"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:id="@+id/abcd"
+        android:layout_marginTop="25dp"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_below="@+id/abcd"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Login Module: This module basically verifies whether the user who is trying to get access to the software is giving the correct credentials or not. If the user gives the right credentials, the main application window gets opened up and  user can further use its functionality. In case, the user provides wrong credentials, a popup is generated intimidating that credentials are incorrect. \n\nMain Window Module: After successful login, the user is presented a screen that is basically a pathway to access various interfaces provided to user for easy functionality.\n\nWater Plants Module: Accessing through the main window, the user can reach this module which is basically provided so to water plants at a click. This module also has a recommendation button that enables the users to get insider sights about whether they should water plants or not. \n\nAnalysis Module: Accessing through the main window, the user can reach this module which is basically provided so to study and dig deeper into the database. This provides a interface for accessing database which contain relevant data sets. \n\nSupport Module: Accessing through the main window, the user can reach this module which is basically provided so to provide user support to troubleshoot problems that the user may face in case of some error occurs."/>
+
+    </LinearLayout></ScrollView>
+</RelativeLayout>

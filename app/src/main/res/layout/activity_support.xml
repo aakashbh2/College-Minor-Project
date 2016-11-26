@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_water_plant"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE082"
+    android:weightSum="3"
+    tools:context="example.com.abhishek.WaterPlant">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="189dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to use system"
+            android:gravity="center_vertical"
+            android:id="@+id/useage"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#212121"
+            android:background="#FFF9C4"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Common Problems"
+            android:gravity="center_vertical"
+            android:id="@+id/problems"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#212121"
+            android:background="#FFF9C4"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About System"
+            android:gravity="center_vertical"
+            android:id="@+id/about"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#212121"
+            android:background="#FFF9C4"/>
+
+    </LinearLayout>
+</RelativeLayout>
